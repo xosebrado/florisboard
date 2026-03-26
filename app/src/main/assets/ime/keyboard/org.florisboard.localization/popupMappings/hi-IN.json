@@ -8,6 +8,14 @@
       "main": { "$": "auto_text_key", "code": 2394, "label": "ग़" },
       "relevant": [{ "$": "auto_text_key", "code": 2427, "label": "ॻ" }]
     },
+    "1": {
+      "main": { "$": "multi_text_key", "codePoints": [2332, 2381, 2334], "label": "ज्ञ" },
+      "relevant": [{ "$": "auto_text_key", "code": 50, "label": "2" }]
+    },
+    "ज्ञ": {
+      "main": { "$": "auto_text_key", "code": 51, "label": "3" },
+      "relevant": [{ "$": "multi_text_key", "codePoints": [2325, 2381, 2359], "label": "क्ष" }]
+    },
     "च": {
       "relevant": [
         { "$": "auto_text_key", "code": 2385, "label": " ॑" },

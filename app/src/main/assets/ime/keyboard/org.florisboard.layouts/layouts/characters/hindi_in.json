@@ -1,8 +1,16 @@
 [
   [
-    { "$": "case_selector", "lower": { "code": 2335, "label": "ट" }, "upper": { "code": 2336, "label": "ठ" } },
-    { "$": "case_selector", "lower": { "code": 2337, "label": "ड" }, "upper": { "code": 2338, "label": "ढ" } },
-    { "$": "case_selector", "lower": { "code": 2375, "label": "े" }, "upper": { "code": 2376, "label": "ै" } },
+    { "$": "case_selector", "lower": { "code": 49, "label": "1" }, "upper": { "code": 49, "label": "1" } },
+    {
+      "$": "case_selector",
+      "lower": { "$": "multi_text_key", "codePoints": [2332, 2381, 2334], "label": "ज्ञ" },
+      "upper": { "$": "multi_text_key", "codePoints": [2332, 2381, 2334], "label": "ज्ञ" }
+    },
+    {
+      "$": "case_selector",
+      "lower": { "$": "multi_text_key", "codePoints": [2325, 2381, 2359], "label": "क्ष" },
+      "upper": { "$": "multi_text_key", "codePoints": [2325, 2381, 2359], "label": "क्ष" }
+    },
     { "$": "case_selector", "lower": { "code": 2352, "label": "र" }, "upper": { "code": 2371, "label": "ृ" } },
     { "$": "case_selector", "lower": { "code": 2340, "label": "त" }, "upper": { "code": 2341, "label": "थ" } },
     { "$": "case_selector", "lower": { "code": 2351, "label": "य" }, "upper": { "code": 2399, "label": "य़" } },
