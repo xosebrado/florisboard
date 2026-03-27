@@ -60,7 +60,8 @@
         "id": "hindi_in",
         "label": "हिंदी",
         "authors": [ "npnpatidar" ],
-        "direction": "ltr"
+        "direction": "ltr",
+        "modifier": "org.florisboard.layouts:newkey"
       },
       {
         "id": "bepo",
@@ -497,6 +498,12 @@
         "id": "default",
         "label": "Default character modifier layout",
         "authors": [ "patrickgold" ],
+        "direction": "ltr"
+      },
+      {
+        "id": "newkey",
+        "label": "New Key (ZWNJ)",
+        "authors": [ "vojta" ],
         "direction": "ltr"
       },
       {
